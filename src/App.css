@@ -66,6 +66,90 @@
   line-height: 1.45;
 }
 
+.mbti-progress-wrap {
+  margin-bottom: 1rem;
+}
+
+.mbti-progress-meta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.82rem;
+  color: #a5b4fc;
+}
+
+.mbti-progress-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(30, 41, 59, 0.9);
+  overflow: hidden;
+}
+
+.mbti-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6366f1, #a78bfa);
+  transition: width 0.2s ease;
+}
+
+.mbti-dim-heading {
+  margin: 1rem 0 0.5rem;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #e9d5ff;
+  background: rgba(76, 29, 149, 0.2);
+  border-radius: 8px;
+  border-left: 3px solid #a78bfa;
+}
+
+.mbti-dim-range {
+  margin-left: 0.5rem;
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.mbti-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(51, 65, 85, 0.65);
+}
+
+.mbti-pager-info {
+  font-size: 0.88rem;
+  color: #94a3b8;
+  min-width: 4rem;
+  text-align: center;
+}
+
+.mbti-btn-secondary {
+  background: rgba(51, 65, 85, 0.65);
+  color: #e2e8f0;
+}
+
+.mbti-btn-secondary:hover:not(:disabled) {
+  background: rgba(71, 85, 105, 0.85);
+}
+
+.mbti-btn-secondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.mbti-actions-hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: #64748b;
+  text-align: center;
+}
+
 .mbti-quiz {
   display: flex;
   flex-direction: column;
